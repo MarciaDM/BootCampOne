@@ -89,18 +89,34 @@ h2
 	color: #0D2163;
 }
 
-footer
-{
+footer{
 	font-family: "MS Times Roman";
 	color: #666666;
 	font-size: 8pt;
 }
-body
-{
+body{
 	background-image:url("../images/Green_netbook_background_1600x900.jpg");
 }
 
-section#sidebar
-{
+section#sidebar{
 	float: left;
 }
+ol{
+	list-style: disc;
+	color: black;
+}
+ul{
+	list-style: square;
+	color: purple;
+}
+.center{
+	margin-right: auto;
+	margin-left: auto;
+}
+a:hover{
+	color: red;
+	background-color: green;
+}
+p:hover{
+	color: blue;
+	}
